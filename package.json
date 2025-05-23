@@ -1,0 +1,14 @@
+{
+  "name": "solutis-automacao-cypress",
+  "version": "1.0.0",
+  "description": "Automação Trello API - Desafio Solutis",
+  "scripts": {
+    "test": "cypress run --reporter mochawesome",
+    "cypress:open": "cypress open",
+    "cy:verify": "cypress verify"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "mochawesome": "^7.1.3"
+  }
+}
